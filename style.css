@@ -1,6 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Nunito, sans-serif;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  align-content: center;
+  gap: 60px;
+  margin-right: 100px;
+}
+
+header li {
+  color: hsl(0, 0%, 0%);
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
 }
 
 header {
-  /* background: hsl(143, 40, 40); */
+  background-color: hsl(25, 56%, 67%);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 160px 0 160px;
+}
+
+.header.section {
+  background-color: hsl(25, 56%, 67%);
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 160px;
+}
+
+div.header.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main.header h2 {
+  width: 200px;
+}
+
+.main.header p {
+  width: 500px;
+}
+
+.main.header button {
+  margin-top: 20px;
+  border-radius: 8px;
+  border-style: none;
+  padding: 10px 24px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.button-container > button:nth-child(1) {
+  background-color: hsl(30, 52%, 92%);
+}
+
+.button-container button:nth-child(1):hover {
+  background-color: hsl(0, 0%, 79%);
+}
+
+.button-container button:nth-child(2) {
+  background-color: hsl(26, 85%, 61%);
+}
+
+.button-container button:nth-child(2):hover {
+  background-color: hsl(26, 85%, 51%);
 }
