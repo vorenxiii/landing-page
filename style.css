@@ -126,7 +126,7 @@ div.header.main {
   gap: 40px;
 }
 
-.card {
+.features .cards-container .card {
   background-color: hsl(343, 7%, 80%);
   display: flex;
   flex-direction: column;
@@ -138,7 +138,7 @@ div.header.main {
   padding: 0 15px;
 }
 
-.feature .icon-container {
+.features .cards-container .card .icon-container {
   background-color: hsl(25, 56%, 67%);
   width: 102px;
   height: 102px;
@@ -193,7 +193,7 @@ footer .links-container {
   align-self: flex-end;
 }
 
-footer .icon-container {
+footer .icons-container {
   align-items: flex-end;
   justify-content: flex-end;
 }
