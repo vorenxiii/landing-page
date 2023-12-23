@@ -20,11 +20,11 @@ header ul {
 }
 
 header li {
-  color: hsl(0, 0%, 0%);
   font-size: 18px;
 }
 
 a {
+  color: hsl(0, 0%, 0%);
   text-decoration: none;
 }
 
@@ -96,4 +96,114 @@ div.header.main {
 
 .button-container button:nth-child(2):hover {
   background-color: hsl(26, 85%, 51%);
+}
+
+.body {
+  background-color: hsl(0, 15%, 89%);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.features h2,
+.pricing h2,
+.pricing p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 40px;
+  margin-top: -10px;
+}
+
+.body .cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  background-color: hsl(343, 7%, 80%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 252px;
+  height: 356px;
+  padding: 0 15px;
+}
+
+.feature .icon-container {
+  background-color: hsl(25, 56%, 67%);
+  width: 102px;
+  height: 102px;
+  border-radius: 50%;
+}
+
+.card p {
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.pricing h2 {
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+
+.pricing p {
+  width: 426px;
+  margin-bottom: 50px;
+}
+
+.pricing .cards-container {
+  gap: 80px;
+}
+
+.pricing .cards-container .card {
+  width: 320px;
+  height: 436px;
+}
+
+footer {
+  width: 100%;
+  background-color: hsl(25, 56%, 67%);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+footer .links-container ul {
+  list-style-type: none;
+  display: flex;
+  align-content: flex-end;
+  gap: 30px;
+}
+
+footer .links-container {
+  align-self: flex-end;
+}
+
+footer .icon-container {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+footer .FatCat-logo {
+  width: 100px;
+  margin: 20px;
+}
+
+footer .icon {
+  width: 24px;
+  margin-bottom: 10px;
 }
