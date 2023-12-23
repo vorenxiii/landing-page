@@ -126,7 +126,7 @@ div.header.main {
   gap: 40px;
 }
 
-.features .cards-container .card {
+.cards-container .card {
   background-color: hsl(343, 7%, 80%);
   display: flex;
   flex-direction: column;
